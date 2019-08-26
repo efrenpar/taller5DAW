@@ -1,0 +1,73 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.profile-header {
+    transform: translateY(5rem);
+}
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+body {
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #654ea3, #eaafc8);
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+    min-height: 100vh;
+}
+
+
+
+.container {
+	display:none:
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 12px;
+  left: 30%;
+}
+
+/* Top left text */
+.top-left {
+	display:none;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 30%;
+}
+
+/* Bottom right text */
+.bottom-right {
+	display:none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

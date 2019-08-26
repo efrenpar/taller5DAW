@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+
 
 let pizzaOperaRoute = require('./src/pizzaOpera')
 
@@ -8,6 +10,8 @@ let libroRoute = require('./src/libro');
 let path = require('path');
 
 let bodyParser = require('body-parser');
+
+app.use(cors())
 app.use(bodyParser.json());
 
 app.use((req ,res ,next)=>{
